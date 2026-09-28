@@ -4,7 +4,9 @@
     "description": "Portfólio profissional de Rubenilson Júnior",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "listar:usuarios": "node scripts/listar-usuarios.js",
+        "listar:logins": "node scripts/listar-logins.js"
     },
     "author": "Rubenilson dos Santos Júnior",
     "license": "MIT",

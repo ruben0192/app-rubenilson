@@ -1,6 +1,7 @@
 const Database = require("better-sqlite3");
+const path = require("path");
 
-const database = new Database("data/app.db", { readonly: true });
+const database = new Database(path.join(__dirname, "..", "data", "app.db"), { readonly: true });
 const logins = database.prepare(`
     SELECT
         usuarios.nome,

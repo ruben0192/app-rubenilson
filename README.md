@@ -25,12 +25,23 @@ Portfólio pessoal de Rubenilson dos Santos Júnior, desenvolvido com Node.js e 
    http://localhost:3000
    ```
 
+## Comandos úteis
+
+- `npm run listar:usuarios` - lista os usuários cadastrados no banco local
+- `npm run listar:logins` - lista os acessos registrados no banco local
+
 ## Estrutura do projeto
 
-- `server.js` - inicializa a aplicação
-- `index.js` - lógica principal do backend
-- `public/` - arquivos do frontend
-- `data/` - dados e banco
+```text
+.
+├── data/       # Banco de dados local (ignorado pelo Git)
+├── docs/       # Documentação e materiais auxiliares
+├── public/     # HTML, CSS e JavaScript do site
+├── scripts/    # Consultas administrativas ao banco
+├── index.js    # Rotas e lógica do servidor
+├── server.js   # Inicialização da aplicação
+└── package.json
+```
 
 ## Licença
 
