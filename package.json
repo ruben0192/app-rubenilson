@@ -1,0 +1,17 @@
+{
+    "name": "portfolio-rubenilson",
+    "version": "1.0.0",
+    "description": "Portfólio profissional de Rubenilson Júnior",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Rubenilson dos Santos Júnior",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "better-sqlite3": "^13.0.3",
+        "express": "^5.2.1",
+        "jsonwebtoken": "^9.0.3"
+    }
+}
