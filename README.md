@@ -35,7 +35,6 @@ Portfólio pessoal de Rubenilson dos Santos Júnior, desenvolvido com Node.js e 
 ```text
 .
 ├── data/       # Banco de dados local (ignorado pelo Git)
-├── docs/       # Documentação e materiais auxiliares
 ├── public/     # HTML, CSS e JavaScript do site
 ├── scripts/    # Consultas administrativas ao banco
 ├── index.js    # Rotas e lógica do servidor
