@@ -1,7 +1,7 @@
 {
-    "name": "portfolio-rubenilson",
+    "name": "conhecimento-mais-50",
     "version": "1.0.0",
-    "description": "Portfólio profissional de Rubenilson Júnior",
+    "description": "Comunidade para compartilhar conhecimentos entre pessoas com 50 anos ou mais",
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
